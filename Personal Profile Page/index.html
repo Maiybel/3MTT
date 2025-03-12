@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Profile Page</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <!-- Objective of the Project
@@ -23,12 +24,9 @@ Provide contact options for networking or project discussions.
 Share personal interests, making it more relatable and engaging. -->
 
   <body>
-    <!-- Header -->
-    <header>
-      <h1>My Profile</h1>
-    </header>
     <!-- Navigation section -->
     <nav>
+      <label class="logo">Mabel</label>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -42,20 +40,24 @@ Share personal interests, making it more relatable and engaging. -->
     <!-- About section -->
     <section id="about">
       <h1>About Me</h1>
-      <img
-        src="./images//Ezema Mabel Ebele - headshot.jpg"
-        alt="Profile Picture"
-      />
-      <p>
-        I'm a passionate software developer with a background in parasitology
-        and entomology. I am an AI enthusiast with knowledge in web development,
-        and problem-solving, I enjoy building solutions that make an impact.
-        <br />
-        Currently, I am fellow at 3MTT where i am advancing my knowledge in web
-        development and on how to build more impactful solutions. Outside of
-        coding, I volunteer as a first aider, watch movies, and continuously
-        seek personal growth.
-      </p>
+      <div>
+        <img
+          id="profile"
+          src="./images//Ezema Mabel Ebele - headshot.jpg"
+          alt="Profile Picture"
+        />
+        <p>
+          I'm a passionate software developer with a background in parasitology
+          and entomology. I am an AI enthusiast with knowledge in web
+          development, and problem-solving, I enjoy building solutions that make
+          an impact.
+          <br />
+          Currently, I am fellow at 3MTT where i am advancing my knowledge in
+          web development and on how to build more impactful solutions. Outside
+          of coding, I volunteer as a first aider, watch movies, and
+          continuously seek personal growth.
+        </p>
+      </div>
     </section>
 
     <!-- skills section -->
@@ -117,7 +119,7 @@ Share personal interests, making it more relatable and engaging. -->
         Feel free to reach out to me via the form below or connect through my
         social media channels.
       </p>
-      <form action="">
+      <form action="#" method="post">
         <label for="name">FullName:</label>
         <input type="text" id="name" name="name" required /><br /><br />
 
@@ -139,13 +141,12 @@ Share personal interests, making it more relatable and engaging. -->
     </section>
     <!-- footer section -->
     <footer>
-      <ul>
-        <li><a href="#">ezemamabel57@gmail.com</a></li>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Linkedin</a></li>
-        <li><a href="#">X</a></li>
-      </ul>
+      <p>
+        <a href="www.linkedin.com/in/mabel-ezema-287940231">LinkedIn</a> ||
+        <a href="https://github.com/Maiybel">GitHub</a> ||
+        <a href="mailto:ezemamabel57@gmail.com">Email</a> ||
+        <a href="#">X</a>
+      </p>
     </footer>
   </body>
 </html>
