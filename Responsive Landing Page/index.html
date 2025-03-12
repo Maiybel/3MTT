@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mabel Pharmacy and Stores</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./media-queries.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#media">Media</a>
+      <a href="#about">About</a>
+      <!-- <a href="#contact">Contact Us</a> -->
+    </nav>
+    <!-- Hero section -->
+    <section class="hero">
+      <h1>Welcome to Mabel Pharmacy and Stores</h1>
+      <img
+        src="./images/new logo.jpg"
+        ,
+        alt="Logo of Mabel pharmacy and stores"
+      />
+    </section>
+    <!-- sub-hero section -->
+    <section class="sub-hero">
+      <h2>
+        ...Your Health, Our Priority.
+        <span>Your Beauty, Our Passion.</span> Your Refreshment, Our Delight."
+        <br />
+        <button onclick="window.location.href='#about'">Learn More</button>
+      </h2>
+      <img src="./images/Pharmacy store image.jpg" alt="pharmacy picture" />
+    </section>
+    <!-- services -->
+    <section id="services">
+      <h2>Services we Offer</h2>
+      <ul>
+        <li>Wholesale and retail of drugs</li>
+        <li>Drug dispensing</li>
+        <li>Consultation and Counselling</li>
+        <li>Blood pressure check</li>
+        <li>Sugar level check</li>
+        <li>Sale of cometics and beverages</li>
+        <li>
+          Basic laboratory tests (Malaria, typhoid and other Serological tests)
+        </li>
+      </ul>
+    </section>
+    <!-- Pricing -->
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Services</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Blood pressure check</td>
+            <td>#2000</td>
+          </tr>
+          <tr>
+            <td>Sugar level check</td>
+            <td>#2500</td>
+          </tr>
+          <tr>
+            <td>malaria test</td>
+            <td>#1500</td>
+          </tr>
+          <tr>
+            <td>typhoid test</td>
+            <td>#2000</td>
+          </tr>
+          <tr>
+            <td>Serological tests</td>
+            <td>#1000</td>
+          </tr>
+          <tr>
+            <td>Consultation and Counselling</td>
+            <td>#1000</td>
+          </tr>
+          <p>
+            For prices of drugs, cosmetics and beverages, please visit our
+            premises
+          </p>
+        </tbody>
+      </table>
+    </section>
+    <!-- Media -->
+    <section id="media">
+      <h2>Have fun while we attend to your health</h2>
+      <h4>Nothin on you by Bruno Mars</h4>
+      <audio controls>
+        <source
+          src="./media/BoB_Featuring_Bruno_Mars_-_Nothin_On_You_Offblogmedia.com.mp3"
+        />
+      </audio>
+      <h4>Hear what WHO has to say about blood donor day</h4>
+      <video controls>
+        <source src="./media/Blood donor day.mp4" />
+      </video>
+    </section>
+    <!-- About -->
+    <section id="about">
+      <h2>About us</h2>
+      <p>
+        At Mabel Pharmacy and Stores, we are committed to providing exceptional
+        healthcare services and a wide range of quality products to enhance your
+        well-being. Our pharmacy offers a comprehensive selection of
+        prescription medications, over-the-counter treatments, and health
+        supplements to ensure you receive the best care for your needs. We also
+        offer a curated collection of premium cosmetics and skincare products to
+        help you look and feel your best. From trusted brands to the latest
+        beauty trends, our cosmetics section has everything you need to enhance
+        your natural beauty. In addition to healthcare and beauty, we stock a
+        variety of refreshing beverages to keep you energized and hydrated
+        throughout your day. Whether you are looking for a revitalizing drink or
+        a delicious treat, our beverage selection has something for everyone.
+      </p>
+    </section>
+    <!-- contact us -->
+    <section id="contact">
+      <h2>Contact us</h2>
+      <h3>
+        we value your feedback and are here to assist you with any inquiries or
+        concerns. Our dedicated team is always ready to help you find the right
+        products and provide expert advice.Feel free to make an order or book a
+        counselling session.
+      </h3>
+      <form>
+        <label for="name">Name</label>
+        <input id="name" />
+
+        <label for="service needed">Service needed</label>
+        <input id="service needed" />
+
+        <label for="date">Pick a date</label>
+        <input type="date" , id="date" />
+
+        <label for="details">Other details</label>
+        <textarea id="details"></textarea>
+
+        <button>Submit</button>
+      </form>
+      <h3>OR</h3>
+      <p>
+        Chat with us on X(Twitter)
+        <a href="https://x.com/EbeleMaybel?t=UuqHg3drksulV3SVxBmk4A&s=09"
+          >@Mabel</a
+        >
+      </p>
+    </section>
+    <footer>
+      <p>&copy; 2025 Ezema Mabel. All rights reserved</p>
+    </footer>
+  </body>
+</html>
