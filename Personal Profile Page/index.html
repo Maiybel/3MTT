@@ -6,18 +6,29 @@
     <title>Personal Profile Page</title>
   </head>
   <body>
+    <!-- Header -->
+    <header>
+      <h1>My Profile</h1>
+    </header>
     <!-- Navigation section -->
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Project</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <!-- bio section -->
-    <section>
-      <img src="" alt="Profile Picture" />
+    <!-- About section -->
+    <section id="about">
       <h1>About Me</h1>
+      <img
+        src="./images//Ezema Mabel Ebele - headshot.jpg"
+        alt="Profile Picture"
+      />
       <p>
         I'm a passionate software developer with a background in parasitology
         and entomology. I am an AI enthusiast with knowledge in web development,
@@ -29,8 +40,51 @@
         seek personal growth.
       </p>
     </section>
+
+    <!-- skills section -->
+    <section id="skills">
+      <h1>Skills</h1>
+      <ul>
+        <li>HTML5, CSS3</li>
+        <li>Javascript and Python</li>
+        <li>Git and Github</li>
+      </ul>
+    </section>
+
+    <!-- services section -->
+    <section id="services">
+      <h1>Services</h1>
+      <ul>
+        <li>Front-end Development</li>
+        <li>Web Application Development</li>
+        <li>Website Maintenace and Support</li>
+        <li>Responsive Web Design</li>
+      </ul>
+    </section>
+
+    <!-- projects section -->
+    <section id="projects">
+      <h1>Projects</h1>
+      <figure>
+        <img src="./images//guess my number.png" alt="Guess my number" />
+        <figcaption>Guess My Number Game</figcaption>
+      </figure>
+      <figure>
+        <img src="./images//Modal window.png" alt="Modal Window" />
+        <figcaption>Modal Window Project</figcaption>
+      </figure>
+      <figure>
+        <img src="./images/pig game.png" alt="Pig Game" />
+        <figcaption>Pig Game Project</figcaption>
+      </figure>
+      <figure>
+        <img src="./images/Mabel pharmacy.png" alt="Mabel Pharmacy" />
+        <figcaption>Mabel Pharmacy Poject</figcaption>
+      </figure>
+    </section>
+
     <!-- hobbies -->
-    <section>
+    <section id="hobbies">
       <h1>Hobbies</h1>
       <p>My hobbies include:</p>
       <ul>
@@ -38,6 +92,33 @@
         <li>Reading and Researching</li>
         <li>Volunteering</li>
       </ul>
+    </section>
+    <!-- contact section -->
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <p>
+        Feel free to reach out to me via the form below or connect through my
+        social media channels.
+      </p>
+      <form action="">
+        <label for="name">FullName:</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Your Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          cols="30"
+          required
+        ></textarea
+        ><br /><br />
+
+        <button type="submit">Submit</button>
+      </form>
     </section>
     <!-- footer section -->
     <footer>
